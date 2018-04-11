@@ -1,0 +1,203 @@
+html, body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.bigbold {
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h5,p{margin:0;}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.nav {
+	/*padding: 10px 0px;*/
+}
+.logo-group > * {
+	display: inline-block;
+}
+ul.unstyled {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+ul.inline > li {
+	display: inline-block;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.cf{
+	clear: both;
+}
+.d-block{
+	display: block;
+}
+.d-flex {
+	display: flex;
+	flex-direction: row;
+}
+.mr-0{
+	margin-right: 0;
+}
+.mr-auto{
+	margin-right: auto;
+}
+.ml-0{
+	margin-left: 0;
+}
+.ml-auto{
+	margin-left: auto;
+}
+
+.bg-primary {
+	background-color: #02DB4A;
+}
+.bg-main {
+	background-image: url(../imgs/apartment.jpg);
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+}
+.text-primary {
+	color: #02DB4A;
+}
+.text-white {
+	color: #FFFFFF;
+}
+.y-center{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/*text-align: center;*/
+}
+.text-8 {
+	font-size: 8px;
+}
+.text-16 {
+	font-size: 16px;
+}
+.text-32 {
+	font-size: 32px;
+}
+.text-40 {
+	font-size: 40px;
+}
+.text-48 {
+	font-size: 48px;
+}
+.text-dl {
+	font-size: 90px;
+}
+
+.py-1 {
+	padding: 10px 0;
+}
+.py-2 {
+	padding: 20px 0;
+}
+.py-3 {
+	padding: 30px 0;
+}
+.py-4 {
+	padding: 40px 0;
+}
+
+.px-1 {
+	padding: 0 10px;
+}
+.px-2 {
+	padding: 0 20px;
+}
+.px-3 {
+	padding: 0 30px;
+}
+.px-4 {
+	padding: 0 40px;
+}
+
+.p-1  {
+	padding: 10px;
+}
+.p-2  {
+	padding: 10px;
+}
+.p-3  {
+	padding: 10px;
+}
+.p-4  {
+	padding: 10px;
+}
+
+.my-1 {
+	margin: 10px 0;
+}
+.my-2 {
+	margin: 20px 0;
+}
+.my-3 {
+	margin: 30px 0;
+}
+.my-4 {
+	margin: 40px 0;
+}
+
+.mx-1 {
+	margin: 0 10px;
+}
+.mx-2 {
+	margin: 0 20px;
+}
+.mx-3 {
+	margin: 0 30px;
+}
+.mx-4 {
+	margin: 0 40px;
+}
+
+.m-1  {
+	margin: 10px;
+}
+.m-2  {
+	margin: 10px;
+}
+.m-3  {
+	margin: 10px;
+}
+.m-4  {
+	margin: 10px;
+}
+.btn {
+	padding: 8px 16px;
+	font-size: 16px;
+	border-radius: 10px;
+	border: 1px solid #ccc; 
+}
+select, input {
+	border-radius: 10px;
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc; 
+}
+.myselect select {
+	border-radius: 10px 0 0 10px;
+	width: 402px;
+}
+.myselect button {
+	border-radius: 0 10px 10px 0;
+	width: 175px;
+}
+
+.btn-primary {
+	background-color:  #02DB4A;
+	border-color: #02DB4A;
+	color: #ffffff;
+}
+.btn-primary:hover {
+	background-color:  #00a236;
+	border-color: #00a236;
+	color: #ffffff;
+}
